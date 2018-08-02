@@ -1,0 +1,27 @@
+{
+  "name": "B_Caterogy",
+  "version": "0.1.0",
+  "summary": "A short description of B_Caterogy.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/w1010446739@163.com/B_Caterogy",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "w1010446739@163.com": "w1010446739@163.com"
+  },
+  "source": {
+    "git": "https://github.com/w1010446739@163.com/B_Caterogy.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "B_Caterogy/Classes/**/*",
+  "dependencies": {
+    "CTMediator": [
+
+    ]
+  }
+}

@@ -2,6 +2,7 @@ use_frameworks!
 
 target 'A_Example' do
   pod 'A', :path => '../'
+  pod 'B_Caterogy', :path => '../../B_Caterogy'
 
   target 'A_Tests' do
     inherit! :search_paths

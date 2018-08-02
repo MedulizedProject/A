@@ -1,0 +1,36 @@
+PODS:
+  - A (0.1.0)
+  - B_Caterogy (0.1.0):
+    - CTMediator
+  - CTMediator (18)
+  - FBSnapshotTestCase (2.1.4):
+    - FBSnapshotTestCase/SwiftSupport (= 2.1.4)
+  - FBSnapshotTestCase/Core (2.1.4)
+  - FBSnapshotTestCase/SwiftSupport (2.1.4):
+    - FBSnapshotTestCase/Core
+
+DEPENDENCIES:
+  - A (from `../`)
+  - B_Caterogy (from `../../B_Caterogy`)
+  - FBSnapshotTestCase
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - CTMediator
+    - FBSnapshotTestCase
+
+EXTERNAL SOURCES:
+  A:
+    :path: "../"
+  B_Caterogy:
+    :path: "../../B_Caterogy"
+
+SPEC CHECKSUMS:
+  A: f430005ad95c033908d2f7ce1b29106964fb5b1a
+  B_Caterogy: 824d04325908e88bdf731960af4eaaf39dca2422
+  CTMediator: 420e9d90f9f1fd740caf2238ed7ed64dc621c5b7
+  FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
+
+PODFILE CHECKSUM: f2abecddf3e67bd3ea95abe4db954ec7b2c4f745
+
+COCOAPODS: 1.5.2
